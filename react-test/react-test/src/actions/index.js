@@ -15,8 +15,14 @@ export const toggleTodo = id => ({
   id
 })
 
+export const deleteTodo = id => ({
+  type: 'DELETE_TODO',
+  id: id
+})
+
 export const VisibilityFilters = {
   SHOW_ALL: 'SHOW_ALL',
   SHOW_COMPLETED: 'SHOW_COMPLETED',
-  SHOW_ACTIVE: 'SHOW_ACTIVE'
+  SHOW_ACTIVE: 'SHOW_ACTIVE',
+  REMOVE_ROW: 'REMOVE_ROW'
 }

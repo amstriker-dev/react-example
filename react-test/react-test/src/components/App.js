@@ -5,11 +5,13 @@ import Footer from './Footer'
 import VisibleTodoList from '../containers/VisibleTodoList'
 
 const App = () => (
-  <Container>
-    <AddTodo />
-    <VisibleTodoList />
-    <Footer />
-  </Container>
+  <div>
+    <Container>
+      <AddTodo />
+      <VisibleTodoList />
+      <Footer />
+    </Container>
+  </div>
 )
 
 export default App;
